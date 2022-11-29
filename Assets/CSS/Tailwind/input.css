@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'eurofighter';
+  src: local('eurofighter'), url(../../fonts/eurofighter.ttf) format('truetype');
+}
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background: #050017;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: white;
+}
+li{
+  list-style-type: none;
+}
+.hero{
+  grid-template-columns: 15% 50% 35%;
+}

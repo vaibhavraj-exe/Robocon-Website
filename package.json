@@ -1,0 +1,26 @@
+{
+  "name": "robocon-website",
+  "version": "1.0.0",
+  "description": "Website for Robocon SRM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind": "npx tailwindcss -i ./Assets/CSS/Tailwind/input.css -o ./Assets/CSS/Tailwind/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anubhav-Pathak/Robocon-Website.git"
+  },
+  "author": "SRMTeamRobocon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anubhav-Pathak/Robocon-Website/issues"
+  },
+  "homepage": "https://github.com/Anubhav-Pathak/Robocon-Website#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "swiper": "^8.4.5"
+  }
+}
