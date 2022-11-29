@@ -19,8 +19,5 @@
   "homepage": "https://github.com/Anubhav-Pathak/Robocon-Website#readme",
   "devDependencies": {
     "tailwindcss": "^3.2.4"
-  },
-  "dependencies": {
-    "swiper": "^8.4.5"
   }
 }
