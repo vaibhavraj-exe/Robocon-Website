@@ -56,8 +56,8 @@ li{
 
 @media (max-width: 768px){
   .navbar ul{
-    /* transform: translateX(100%); */
-    animation: slide-in;
+    transform: translateX(100%);
+    animation: none;
     animation-duration: .5s;
   }
 }

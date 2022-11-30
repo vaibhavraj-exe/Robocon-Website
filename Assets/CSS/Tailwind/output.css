@@ -547,6 +547,10 @@ video {
   }
 }
 
+.visible {
+  visibility: visible;
+}
+
 .collapse {
   visibility: collapse;
 }
@@ -905,8 +909,8 @@ li{
 
 @media (max-width: 768px){
   .navbar ul{
-    /* transform: translateX(100%); */
-    animation: slide-in;
+    transform: translateX(100%);
+    animation: none;
     animation-duration: .5s;
   }
 }
@@ -932,6 +936,10 @@ li{
 
   .md\:ml-2 {
     margin-left: 0.5rem;
+  }
+
+  .md\:hidden {
+    display: none;
   }
 
   .md\:h-auto {

@@ -14,8 +14,12 @@
     <div class="max-w-[1400px] mx-auto px-4">
         <header class="flex items-center justify-between z-50">
             <div class="flex flex-row gap-4">
-                <a href="/"><img src="./Assets/img/Hamburger.svg" alt=""></a>
-                <a href="/"><img src="./Assets/img/Header.svg" alt="Header Image" width="200px"></a>
+                <a href="javascript:menu_toggle()">
+                    <img class="visible md:hidden" id="menu-button" src="./Assets/img/Hamburger.svg" alt="">
+                    <img class="hidden md:hidden" id="menu_close_button" src="./Assets/img/Close.svg" alt="">
+                </a>
+                <!-- <a href="#"><img class="visible md:hidden menu-button-close" src="./Assets/img/Close.svg" alt=""></a> -->
+                <a href="#"><img src="./Assets/img/Header.svg" alt="Header Image" width="200px"></a>
             </div>
             <nav class="text-white text-lg navbar">
                 <ul class="flex flex-col md:flex-row text-right justify-center fixed md:relative backdrop-blur-md md:backdrop-filter-none h-full md:h-auto right-0 top-0 w-3/6 md:w-auto">
@@ -33,8 +37,8 @@
             <section class="hero mt-12 grid grid-cols-3 grid-rows-3 gap-4 text-white">
             <img src="./Assets/img/Blogs.svg" alt="Blog" width="98vh" class="row-span-full col-start-1 border-2">
                 <!-- Main Blog -->
-                <a href="/Blog/blog.html" target="_blank" class="row-start-1 row-end-2 lg:row-span-full col-start-2 col-end-4 lg:col-end-2 max-h-[98vh]">
-                    <article class="flex flex-col p-4 gap-2 bg-slate-900">
+                <a href="/Blog/blog.html" target="_blank" class="row-start-1 row-end-2 lg:row-span-full col-start-2 col-end-4 lg:col-end-2 max-h-[98vh] ">
+                    <article class="flex flex-col p-4 gap-2 bg-slate-900 ">
                         <img src="./Assets/img/Defence.jpg" alt="Main Blog" class="object-cover">
                         <h3 class="text-[32px]">Heading</h3>
                         <p class="overflow-hidden">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, blanditiis quisquam. Explicabo aperiam officiis repudiandae nostrum officia optio dolorum exercitationem at dolore dicta numquam, nemo a fugit quidem. Ab, rerum.<span>...</span></p>
@@ -78,6 +82,10 @@
                     </article>
                 </a>
             </section>
+            <section>
+
+            </section>
         </main>
+        <script src="./Assets/JS/blogs.js"></script>
     </div>
 </body>
