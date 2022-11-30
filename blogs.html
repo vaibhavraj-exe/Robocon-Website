@@ -8,19 +8,23 @@
     <title>Our Blogs</title>
     <link rel="shortcut icon" type="image/x-icon" href="Logo/Logo_transparent.png" />
     <link rel="stylesheet" href="./Assets/CSS/Tailwind/output.css">
+    <link rel="stylesheet" href="./Assets/CSS/Tailwind/input.css">
 </head>
 <body>
     <div class="max-w-[1400px] mx-auto px-4">
-        <header class="flex items-center justify-between">
-            <a href="/"><img src="./Assets/img/Header.svg" alt="Header Image" width="200px"></a>
-            <nav class="text-white text-lg">
-                <ul class="flex">
-                    <li class="mr-2"><a href="/" class="hover:text-red-600">Home</a></li>
-                    <li class="mx-2"><a href="/" class="hover:text-red-600">Team</a></li>
-                    <li class="mx-2"><a href="/" class="hover:text-red-600">Alumni</a></li>
-                    <li class="mx-2"><a href="/" class="hover:text-red-600">Projects & Achievements</a></li>
-                    <li class="mx-2"><a href="/" class="hover:text-red-600">Blogs</a></li>
-                    <li class="ml-2"><a href="/" class="hover:text-red-600">Contact Us</a></li>
+        <header class="flex items-center justify-between z-50">
+            <div class="flex flex-row gap-4">
+                <a href="/"><img src="./Assets/img/Hamburger.svg" alt=""></a>
+                <a href="/"><img src="./Assets/img/Header.svg" alt="Header Image" width="200px"></a>
+            </div>
+            <nav class="text-white text-lg navbar">
+                <ul class="flex flex-col md:flex-row text-right justify-center absolute md:relative backdrop-blur-md md:backdrop-filter-none h-full md:h-auto top-0 w-3/6 md:w-auto">
+                    <li class="md:mr-2 mt-10 pr-5"><a href="/" class="hover:text-red-600">Home</a></li>
+                    <li class="md:mx-2 mt-10 pr-5"><a href="/" class="hover:text-red-600">Team</a></li>
+                    <li class="md:mx-2 mt-10 pr-5"><a href="/" class="hover:text-red-600">Alumni</a></li>
+                    <li class="md:mx-2 mt-10 pr-5"><a href="/" class="hover:text-red-600">Projects & Achievements</a></li>
+                    <li class="md:mx-2 mt-10 pr-5"><a href="/" class="hover:text-red-600">Blogs</a></li>
+                    <li class="md:ml-2 mt-10 pr-5"><a href="/" class="hover:text-red-600">Contact Us</a></li>
                 </ul>
             </nav>
             <a href="/"><img src="./Assets/img/Logo.gif" alt="SRMTeamRobocon" width="100px"></a>
