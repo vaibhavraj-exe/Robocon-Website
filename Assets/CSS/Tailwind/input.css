@@ -26,3 +26,19 @@ li{
 .hero{
   grid-template-columns: 15% 42.5% 42.5%;
 }
+
+
+@media (max-width: 768px){
+  .navbar{
+    right: -1vw;
+    overflow: hidden;
+  }
+}
+
+
+@media (max-width: 768px){
+  .navbar{
+    right: -1vw;
+    overflow: hidden;
+  }
+}
