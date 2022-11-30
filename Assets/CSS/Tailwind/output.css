@@ -555,16 +555,12 @@ video {
   position: fixed;
 }
 
-.absolute {
-  position: absolute;
+.right-0 {
+  right: 0px;
 }
 
 .top-0 {
   top: 0px;
-}
-
-.right-0 {
-  right: 0px;
 }
 
 .z-50 {
@@ -877,7 +873,14 @@ li{
 }
 
 .hero{
-  grid-template-columns: 15% 50% 35%;
+  grid-template-columns: 15% 42.5% 42.5%;
+}
+
+@media (max-width: 768px){
+  .navbar{
+    right: -1vw;
+    overflow: hidden;
+  }
 }
 
 @keyframes slide-in {
