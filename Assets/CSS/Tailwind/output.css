@@ -551,8 +551,12 @@ video {
   visibility: collapse;
 }
 
-.absolute {
-  position: absolute;
+.fixed {
+  position: fixed;
+}
+
+.right-0 {
+  right: 0px;
 }
 
 .top-0 {
@@ -839,10 +843,31 @@ li{
   grid-template-columns: 15% 50% 35%;
 }
 
+@keyframes slide-in {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-out {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(100%);
+  }
+}
+
 @media (max-width: 768px){
-  .navbar{
-    right: -1vw;
-    overflow: hidden;
+  .navbar ul{
+    /* transform: translateX(100%); */
+    animation: slide-in;
+    animation-duration: .5s;
   }
 }
 
